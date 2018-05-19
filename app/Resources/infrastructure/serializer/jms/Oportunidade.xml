@@ -1,0 +1,7 @@
+<serialier>
+    <class name="Domain\Model\Oportunidade">
+        <property name="descricao" type="string" groups="default"/>
+        <property name="periodoInicial" type="dateTime" groups="default"/>
+        <property name="periodoFinal" type="dateTime" groups="default"/>
+    </class>
+</serialier>
