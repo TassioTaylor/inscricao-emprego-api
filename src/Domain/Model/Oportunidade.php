@@ -17,6 +17,7 @@ class Oportunidade
      * @var int
      */
     private $idOportunidade;
+
     /**
      * @var stringz
      */
@@ -26,10 +27,16 @@ class Oportunidade
      * @var \DateTime
      */
     private $periodoinical;
+
     /**
      * @var \DateTime
      */
     private $periodofinal;
+
+    /**
+     * @var int
+     */
+    private $qtdVagas;
 
     /**
      * Oportunidade constructor.
