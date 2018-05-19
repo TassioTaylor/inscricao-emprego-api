@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
-    <entity name="Domain\model\Oportunidade">
+    <entity repository-class="Infrastructure\Persistence\Doctrine\OportunidadeRepository"
+            name="Domain\Model\Oportunidade"
+            table="oportunidade"
+    >
         <id name="idOportunidade" type="integer">
             <generator strategy="IDENTITY"/>
         </id>
